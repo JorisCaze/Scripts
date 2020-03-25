@@ -18,7 +18,7 @@ saveFolder = '../plots/'
 
 # Files read
 files = ['fileA_1.txt', 'fileA_2.txt',
-		 'fileB_1.txt', 'fileB_2.txt']
+         'fileB_1.txt', 'fileB_2.txt']
 
 fileNames = [i[:-4] for i in files]
 
