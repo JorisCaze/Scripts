@@ -39,17 +39,17 @@ lineFile = []  # Buffer which keeps lines of one file temporarily
 # Once all timesteps of a quantity is stocked we continue
 # with the next quantity following the same process
 
-#  	                   _____ ____ ____
-# Face 3 = fileB_1    /____/____/____/|
-#  			         /____/____/____/||
-# Face 2 = fileA_2  /____/____/___ /|/|
-#   	           |    |    |    | /||
-# Face 1 = fileA_1 |____|____|____|/|/|
-# 	               |    |    |    | /||
-# 	               |____|____|____|/|/
-# 	               |    |    |    | /
-# 	               |____|____|____|/   
-# 	                 x    y     z
+#                          _____ ____ ____
+# Face 3 = fileB_1        /____/____/____/|
+#                        /____/____/____/||
+# Face 2 = fileA_2      /____/____/___ /|/|
+#                      |    |    |    | /||
+# Face 1 = fileA_1     |____|____|____|/|/|
+#                      |    |    |    | /||
+#                      |____|____|____|/|/
+#                      |    |    |    | /
+#                      |____|____|____|/   
+#                        x    y    z
 
 # Read csv files and store all data into var. lines
 for file in files:
